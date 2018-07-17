@@ -7,7 +7,7 @@
 > 一个 `RIFF` 文件从一个文件头开始，然后是一个数据块的序列。WAVE文件通常只是一个重复的文件，其中包含一个**WAVE**块，它由两个子块组成——一个**fmt**块指定数据格式和一个包含实际示例数据的**data**块。
 
 ### 标准的 WAVE 文件格式（图片来源于[这里](http://soundfile.sapp.org/doc/WaveFormat/)）
-![](SYOpenALPlayer/SYWavParser/wav_sound_format.gif)
+![](wav_sound_format.gif)
 
 ## OpenAL
 > `OpenAL`（Open Audio Library）是自由软件界的跨平台音效API。它设计给多通道三维位置音效的特效表现。其API风格模仿自 [OpenGL](https://zh.wikipedia.org/wiki/OpenGL)。
